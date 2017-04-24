@@ -1,0 +1,17 @@
+{
+  "name": "purplehaze",
+  "version": "1.0.0",
+  "keywords": [
+    "util",
+    "functional",
+    "server",
+    "client",
+    "browser"
+  ],
+  "author": "developer",
+  "contributors": [],
+  "dependencies": {},
+  "devDependencies": {
+    "gulp-image": "^2.7.6"
+  }
+}
