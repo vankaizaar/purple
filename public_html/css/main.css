@@ -13,14 +13,24 @@
 
 .btn-xl {
     font-family: 'Oswald', sans-serif;
-    color: #fff;
-    background-color: #fed136;
-    border-color: #fed136;
+    color: #5C1F5E;
+    background-color: #ffffff;
+    border-color: #ffffff;
     border-radius: 1px;
     font-size: 18px;
     line-height: 18px;
     padding: 10px 20px;
     text-transform: uppercase;
+}
+
+.navbar-right {
+    float: right !important;
+/*    margin-right: 30px;*/
+}
+
+.badge-lg{
+    position:absolute;
+    
 }
 
 .navbar-brand2 {
@@ -30,6 +40,7 @@
     top: 15px;
     text-align: center;
     margin: auto;
+    z-index: 1;
 }
 
 header {
@@ -74,13 +85,13 @@ header .intro-text .intro-heading {
         font-family: 'Oswald', sans-serif;       
         font-size:30px;
         line-height:30px;
-        margin-bottom:25px
+
     }
     header .intro-text .intro-heading {
         font-family: 'Oswald', sans-serif;
         text-transform:uppercase;
         font-weight:700;
         font-size:75px;
-        line-height:75px;        
+
     }
 }
