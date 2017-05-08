@@ -7,7 +7,7 @@ options = {
 var compress = require('gulp-compress')(gulp, options);
 
 gulp.task('image', function () {
-  gulp.src('./public_html/images/**/*')
+  gulp.src('./public_html/assets/img/**/*')
     .pipe(image({
       pngquant: true,
       optipng: false,
@@ -19,7 +19,7 @@ gulp.task('image', function () {
       svgo: false,
       concurrent: 10
     }))
-    .pipe(gulp.dest('./dist/images/'));
+    .pipe(gulp.dest('./dist/assets/img/'));
 });
 
 gulp.task('default', ['compress','image']);
