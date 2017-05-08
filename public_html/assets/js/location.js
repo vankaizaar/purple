@@ -6,5 +6,5 @@ $('#gmap').gmap3({
       })
 .marker({
         position: center,
-        icon: 'marker.png'
+        icon: 'assets/img/marker.png'
       });

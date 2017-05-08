@@ -10,7 +10,10 @@
   ],
   "author": "developer",
   "contributors": [],
-  "dependencies": {},
+  "dependencies": {
+    "gulp-compress": "0.0.9",
+    "gulp-image": "^2.8.0"
+  },
   "devDependencies": {
     "gulp-image": "^2.7.6"
   }
